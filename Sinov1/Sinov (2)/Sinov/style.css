@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #341f47;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+}
+
+header > h3 {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.search1 {
+  position: absolute;
+}
+.search1-1 {
+  width: 645px;
+  height: 50px;
+  border-radius: 10px;
+}
+.img1 {
+  position: relative;
+  top: 15px;
+  left: -50px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.img2 {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  gap: 64px;
+}
+.navbar {
+  display: flex;
+}
+.menyu {
+  width: 168px;
+  height: 810px;
+  background: #341f47;
+  color: white;
+}
+.order1 {
+  background-color: #341f47;
+  color: #fff;
+  width: 169px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.order2 {
+  width: 169px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #341f47;
+  color: #fff;
+}
+
+.order3 {
+  width: 169px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background-color: #341f47;
+  color: #fff;
+}
+
+.ctol {
+  background-color: #edecec;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+}
+.result {
+  width: 417px;
+  height: 276px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 30px;
+  border: none;
+  /* display: none; */
+}
+.qator {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.holat1 {
+  width: 128px;
+  height: 34px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(8, 197, 8);
+  border-radius: 20px;
+}
+
+.holat2 {
+  width: 128px;
+  height: 34px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(243, 149, 25);
+  border-radius: 20px;
+}
+.orqa_oyna {
+  width: 1332px;
+  height: 110px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  border: none;
+}
+.qator2 {
+  display: grid;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.hidden {
+  display: none;
+}
+
+.ustun {
+  background-color: #fff;
+  width: 1232px;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* display: none; */
+}
+.btn8 {
+  width: 129px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.doira {
+  border-radius: 50%;
+  background-color: #f28a2c;
+  height: 25px;
+  width: 25px;
+}
+.doira2 {
+  border-radius: 50%;
+  background-color: #f28a2c;
+  height: 10px;
+  width: 10px;
+}
+.iktasi1 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #f28a2c;
+}
+
+.ustun1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1232px;
+  height: 188px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.ich {
+  display: flex;
+}
+
+.tel {
+  width: 147px;
+  height: 22px;
+}
+
+.retsep {
+  width: 100%;
+  margin-top: 20px;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  width: 1232px;
+  height: 100%;
+  align-items: center;
+  /* display: none; */
+}
+table {
+  width: 1332px;
+  height: 387px;
+  border-collapse: collapse;
+  border: 1.5px solid black;
+  padding: 15px;
+  text-align: center;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.tr {
+  height: 50px;
+}
